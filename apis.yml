@@ -11,8 +11,8 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Media
-  - Technology News
   - Startups
+  - Technology News
 url: https://raw.githubusercontent.com/api-evangelist/geekwire/refs/heads/main/apis.yml
 created: '2026-03-24'
 modified: '2026-03-24'
@@ -29,9 +29,9 @@ apis:
     humanURL: https://www.geekwire.com/rss-feeds/
     baseURL: https://www.geekwire.com
     tags:
-      - RSS
-      - News
       - Feed
+      - News
+      - RSS
       - Syndication
     properties:
       - type: Documentation
@@ -48,10 +48,10 @@ apis:
     humanURL: https://developer.wordpress.org/rest-api/
     baseURL: https://www.geekwire.com/wp-json/wp/v2
     tags:
-      - WordPress
-      - REST
-      - JSON
       - Content
+      - JSON
+      - REST
+      - WordPress
     properties:
       - type: Documentation
         url: https://developer.wordpress.org/rest-api/
