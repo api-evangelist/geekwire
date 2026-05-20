@@ -58,6 +58,8 @@ apis:
       - type: OpenAPI
         url: https://www.geekwire.com/wp-json/
 common:
+  - type: GitHubOrganization
+    url: https://github.com/geekwire
   - url: https://www.geekwire.com/
     name: GeekWire
     type: Website
