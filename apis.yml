@@ -58,6 +58,8 @@ apis:
       - type: OpenAPI
         url: https://www.geekwire.com/wp-json/
 common:
+  - type: DomainSecurity
+    url: security/geekwire-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/geekwire
   - url: https://www.geekwire.com/
