@@ -8,6 +8,17 @@ description: >-
   Seattle and Pacific Northwest startup ecosystem. GeekWire also operates GeekWork,
   a technology job board, and produces popular podcasts and weekly radio programming.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
