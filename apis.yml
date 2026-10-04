@@ -50,7 +50,6 @@ apis:
       and readers to consume GeekWire content programmatically using standard
       feed parsing libraries and tools.
     humanURL: https://www.geekwire.com/rss-feeds/
-    baseURL: https://www.geekwire.com
     tags:
       - Feed
       - News
@@ -61,25 +60,20 @@ apis:
         url: https://www.geekwire.com/rss-feeds/
       - type: RSSFeed
         url: https://www.geekwire.com/feed/
-  - aid: geekwire:wordpress-rest-api
-    name: GeekWire WordPress REST API
-    description: >-
-      GeekWire is built on WordPress and exposes the standard WordPress REST API,
-      providing JSON endpoints for accessing posts, categories, tags, authors, and
-      other content types. The API is available at the /wp-json/wp/v2/ base path
-      and supports filtering, pagination, and searching across all GeekWire content.
-    humanURL: https://developer.wordpress.org/rest-api/
-    baseURL: https://www.geekwire.com/wp-json/wp/v2
+  - aid: geekwire:geekwire-com-website-wordpress-rest
+    name: GeekWire Website (WordPress REST)
+    description: 'The public WordPress REST API (wp-json) of the GeekWire website at www.geekwire.com: the
+      route index of the site''s content management system, catalogued as one site surface rather than as
+      separate APIs.'
+    baseURL: https://www.geekwire.com/wp-json
     tags:
-      - Content
-      - JSON
-      - REST
-      - WordPress
+    - WordPress
+    x-surface: platform-generated
     properties:
-      - type: Documentation
-        url: https://developer.wordpress.org/rest-api/
-      - type: OpenAPI
-        url: https://www.geekwire.com/wp-json/
+    - type: Documentation
+      url: https://www.geekwire.com/wp-json
+    x-platform: wordpress
+    x-platform-surface: rest
 common:
   - type: DomainSecurity
     url: security/geekwire-domain-security.yml
