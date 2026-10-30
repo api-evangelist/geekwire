@@ -64,51 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-GeekWire is a leading technology news site covering startups, innovation, and the Pacific Northwest tech scene. Founded in Seattle, GeekWire delivers breaking news, analysis, and commentary on technology, business, and entrepreneurship, with a particular focus on companies like Amazon, Microsoft, and the broader Seattle and Pacific Northwest startup ecosystem. GeekWire also operates GeekWork, a technology job board, and produces popular podcasts and weekly radio programming on KIRO Radio (97.3 FM).
+GeekWire is a leading technology news site covering startups, innovation, and the Pacific Northwest tech scene. Founded in Seattle, GeekWire delivers breaking news, analysis, and commentary on technology, business, and entrepreneurship, with a particular focus on companies like Amazon, Microsoft, and the broader Seattle and Pacific Northwest startup ecosystem. GeekWire also operates GeekWork, a technology job board, and produces popular podcasts and weekly radio programming.
+
+**Areas:** Media · Startups · Technology News
+
+## GeekWire on APIs.io
+
+Everything profiled for GeekWire is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/geekwire/](https://apis.io/providers/geekwire/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [GeekWire RSS Feed](https://apis.io/apis/geekwire/rss-feed/) — GeekWire provides RSS feeds for its main news stream and individual topic categories including Microsoft, Space, Science, Real Estate, Games, Google,…
+- [GeekWire Website (WordPress REST)](https://apis.io/apis/geekwire/geekwire-com-website-wordpress-rest/) — The public WordPress REST API (wp-json) of the GeekWire website at www.geekwire.com: the route index of the site's content management system, catalogued as…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Geekwire Domain Security](https://apis.io/security/geekwire/geekwire-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Geekwire Plans Pricing](https://apis.io/plans/geekwire/geekwire-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Geekwire Rate Limits](https://apis.io/rate-limits/geekwire/geekwire-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Geekwire Finops](https://apis.io/finops/geekwire/geekwire-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.geekwire.com/)
-- [About GeekWire](https://www.geekwire.com/about-geekwire/)
-- [Contact GeekWire](https://www.geekwire.com/contact-us/)
+- [Terms of service](https://www.geekwire.com/termsofuse/)
+- [Privacy policy](https://www.geekwire.com/privacy/)
+- [GitHub](https://github.com/geekwire)
 
-## RSS Feeds
+## API Evangelist rating
 
-GeekWire provides RSS feeds for its main news stream and individual topic categories. These standard Atom/RSS feeds can be consumed programmatically using any feed parsing library.
+**Kin Score 12.8** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-- [RSS Feeds Directory](https://www.geekwire.com/rss-feeds/)
-- [Main Feed](https://www.geekwire.com/feed/)
-- [Microsoft](https://www.geekwire.com/microsoft/feed/)
-- [Space](https://www.geekwire.com/space/feed/)
-- [Science](https://www.geekwire.com/science/feed/)
-- [Real Estate](https://www.geekwire.com/real-estate/feed/)
-- [Games](https://www.geekwire.com/games/feed/)
-- [Google](https://www.geekwire.com/google/feed/)
-- [Mobile](https://www.geekwire.com/mobile-news/feed/)
-- [GeekLife](https://www.geekwire.com/geeklife/feed/)
-- [Podcasts](https://www.geekwire.com/podcast/feed/)
-- [Apple](https://www.geekwire.com/apple/feed/)
+| Facet | Score |
+|---|---|
+| Discoverability | 39.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 28.9 |
 
-## WordPress REST API
+**Agent readiness 0.6** — human-only
 
-GeekWire is built on WordPress and exposes the standard WordPress REST API, providing JSON endpoints for accessing posts, categories, tags, authors, and other content types.
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-- [WordPress REST API Documentation](https://developer.wordpress.org/rest-api/)
-- [GeekWire API Root](https://www.geekwire.com/wp-json/)
-- [Posts Endpoint](https://www.geekwire.com/wp-json/wp/v2/posts)
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
 
-## Properties
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/geekwire/](https://apis.io/providers/geekwire/).
 
-- [Newsletter](https://www.geekwire.com/newsletter/)
-- [GeekWork Job Board](https://www.geekwire.com/jobs/)
-- [Advertise on GeekWire](https://www.geekwire.com/advertise/)
-- [Podcast on Apple Podcasts](https://podcasts.apple.com/us/podcast/geekwire/id427374434)
-- [Podcast on Spotify](https://open.spotify.com/show/2PPEGel5l0v3XxlD8fVxAh)
+## How this profile is made
 
-## Legal
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- [Privacy Policy](https://www.geekwire.com/privacy/)
-- [Terms of Use](https://www.geekwire.com/termsofuse/)
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for GeekWire: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Social
+## Open an issue
 
-- [LinkedIn](https://www.linkedin.com/company/geekwire)
-- [X](https://x.com/geekwire)
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/geekwire/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
